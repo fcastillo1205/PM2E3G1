@@ -18,6 +18,7 @@ namespace PM02E3G1.Views.Examen
         {
             InitializeComponent();
             BindingContext = new ViewModels.ViewModelPagos();
+            dtFecha.Date = DateTime.Now;
         }
 
         

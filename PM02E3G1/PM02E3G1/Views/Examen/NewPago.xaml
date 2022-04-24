@@ -14,25 +14,23 @@
         
         <StackLayout Margin="0,30,0,0">
             <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
-                <Label Text="Descripcion"/>
+                <Label TextColor="Black" Text="Descripcion"/>
                 <Frame HasShadow="True" Padding="6" CornerRadius="7">
-                    <Entry Placeholder="Ingrese la descripcion" Keyboard="Text" Text="{Binding Descripcion, Mode=TwoWay}"/>
+                    <Entry TextColor="Black" Placeholder="Ingrese la descripcion" Keyboard="Text" Text="{Binding Descripcion, Mode=TwoWay}"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
-                <Label Text="Monto"/>
+                <Label TextColor="Black" Text="Monto"/>
                 <Frame HasShadow="True" Padding="6" CornerRadius="7">
-                    <Entry Placeholder="Ingrese el monto" Keyboard="Numeric" Text="{Binding Monto, Mode=TwoWay}"/>
+                    <Entry TextColor="Black" Placeholder="Ingrese el monto" Keyboard="Numeric" Text="{Binding Monto, Mode=TwoWay}"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
-                <Label Text="Fecha"/>
+                <Label  TextColor="Black" Text="Fecha"/>
                 <Frame HasShadow="True" Padding="6" CornerRadius="7">
-                    <DatePicker MinimumDate="01/01/2022"
-                        MaximumDate="12/31/2030"
-                        Date="{Binding Fecha, Mode=TwoWay}" />
+                    <DatePicker TextColor="Black" x:Name="dtFecha" Date="{Binding Fecha, Mode=TwoWay}" />
                 </Frame>
             </StackLayout>
 

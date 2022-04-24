@@ -153,16 +153,41 @@ namespace PM02E3G1.ViewModels
 
         public async Task Modificar()
         {
-            var pago = new ModeloPagos()
+            if (string.IsNullOrEmpty(Descripcion))
             {
-                Id_Pago = _Id_Pago,
-                Descripcion = _Decripcion,
-                Fecha = _Fecha,
-                Monto = _Monto,
-                Photo_recibo = _Photo_recibo
-            };
+                await Application.Current.MainPage.DisplayAlert("Error", "Debe Completar el campo descripcion", "Salir");
+                return;
+            }
+            else if (string.IsNullOrEmpty(Fecha.ToString()))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Debe Completar el campo fecha", "Salir");
+                return;
+            }
+            else if (string.IsNullOrEmpty(Monto.ToString()) || Monto <= 0)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Debe Completar el campo monto", "Salir");
+                return;
+            }
+            else if (string.IsNullOrEmpty(Photo_recibo))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Debe tomar una foto", "Salir");
+                return;
+            }
+            else
+            {
+                var pago = new ModeloPagos()
+                {
+                    Id_Pago = _Id_Pago,
+                    Descripcion = _Decripcion,
+                    Fecha = _Fecha,
+                    Monto = _Monto,
+                    Photo_recibo = _Photo_recibo
+                };
 
-            await firebaseHelper.UpdatePago(pago);
+                await firebaseHelper.UpdatePago(pago);
+                await App.Current.MainPage.Navigation.PushAsync(new Views.Examen.ListViewPagos());
+            }
+            
         }
 
         public async Task Eliminar()
