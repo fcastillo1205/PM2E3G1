@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FERNANDO CASTILLO\\Desktop\\PM02E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj": {}
+    "C:\\Users\\FERNANDO-PC\\Desktop\\PM2E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FERNANDO CASTILLO\\Desktop\\PM02E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj": {
+    "C:\\Users\\FERNANDO-PC\\Desktop\\PM2E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FERNANDO CASTILLO\\Desktop\\PM02E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj",
+        "projectUniqueName": "C:\\Users\\FERNANDO-PC\\Desktop\\PM2E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj",
         "projectName": "PM02E3G1",
-        "projectPath": "C:\\Users\\FERNANDO CASTILLO\\Desktop\\PM02E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj",
-        "packagesPath": "C:\\Users\\FERNANDO CASTILLO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FERNANDO CASTILLO\\Desktop\\PM02E3G1\\PM02E3G1\\PM02E3G1\\obj\\",
+        "projectPath": "C:\\Users\\FERNANDO-PC\\Desktop\\PM2E3G1\\PM02E3G1\\PM02E3G1\\PM02E3G1.csproj",
+        "packagesPath": "C:\\Users\\FERNANDO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FERNANDO-PC\\Desktop\\PM2E3G1\\PM02E3G1\\PM02E3G1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FERNANDO CASTILLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FERNANDO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

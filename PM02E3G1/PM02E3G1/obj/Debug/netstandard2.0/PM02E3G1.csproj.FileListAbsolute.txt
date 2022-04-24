@@ -21,3 +21,26 @@ C:\Users\FERNANDO CASTILLO\Desktop\PM02E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstand
 C:\Users\FERNANDO CASTILLO\Desktop\PM02E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.dll
 C:\Users\FERNANDO CASTILLO\Desktop\PM02E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\ref\PM02E3G1.dll
 C:\Users\FERNANDO CASTILLO\Desktop\PM02E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.pdb
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\bin\Debug\netstandard2.0\PM02E3G1.deps.json
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\bin\Debug\netstandard2.0\PM02E3G1.dll
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\bin\Debug\netstandard2.0\ref\PM02E3G1.dll
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\bin\Debug\netstandard2.0\PM02E3G1.pdb
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.csproj.AssemblyReference.cache
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\Examen\EditPago.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\Examen\ListViewPagos.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\Examen\NewPago.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.AssemblyInfoInputs.cache
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.AssemblyInfo.cs
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.csproj.CoreCompileInputs.cache
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.dll
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\ref\PM02E3G1.dll
+C:\Users\FERNANDO-PC\Desktop\PM2E3G1\PM02E3G1\PM02E3G1\obj\Debug\netstandard2.0\PM02E3G1.pdb

@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PM02E3G1.Views.Examen.EditPago"
              xmlns:local="clr-namespace:PM02E3G1.Clases;assembly=PM02E3G1" 
-             Title="Modificar Pago">
+             Title="Modificar Pago"
+             Background="White">
     
     <ContentPage.Resources>
         <ResourceDictionary>
