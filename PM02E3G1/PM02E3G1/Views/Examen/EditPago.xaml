@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02E3G1.Views.Examen.EditPago"
+             xmlns:local="clr-namespace:PM02E3G1.Clases;assembly=PM02E3G1" 
+             Title="Modificar Pago">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ConverterBase64ImageSource x:Key="Base64ToImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+
+        <StackLayout Margin="0,2,0,0">
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Label Text="Descripcion"/>
+                <Label Text="{Binding Id_Pago}" IsVisible="false"/>
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Entry Placeholder="Ingrese la descripcion" Keyboard="Text" Text="{Binding Descripcion, Mode=TwoWay}"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Label Text="Monto"/>
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Entry Placeholder="Ingrese el monto" Keyboard="Numeric" Text="{Binding Monto, Mode=TwoWay}"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Label Text="Fecha"/>
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <DatePicker MinimumDate="01/01/2022"
+                        MaximumDate="12/31/2030"
+                        Date="{Binding Fecha, Mode=TwoWay}" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Frame Padding="0,0"  HorizontalOptions="CenterAndExpand" >
+                    <Image
+                        x:Name="img"
+                         Aspect="AspectFill"  
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand"      
+                        Source="{Binding Photo_recibo, Converter={StaticResource Base64ToImageConverter}}"
+                        HeightRequest="{OnPlatform Android=250}"
+                        WidthRequest="{OnPlatform Android=180}"
+                    />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Button Command="{Binding CommandTomarFoto}" Text="Tomar Foto"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Button Command="{Binding CommandModificarPago}" Text="Modificar Pago"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Button Command="{Binding CommandEliminarPago}" Text="Eliminar Pago"/>
+                </Frame>
+            </StackLayout>
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

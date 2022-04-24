@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6028427a-8327-43df-a7f3-72125b18dac7": {
+      "ProjectGuid": "6028427a-8327-43df-a7f3-72125b18dac7",
+      "DisplayName": "PM02E3G1",
+      "ColorIndex": 0
+    },
+    "9f0e2e3f-6258-40ff-bd22-39fbfe9c098f": {
+      "ProjectGuid": "9f0e2e3f-6258-40ff-bd22-39fbfe9c098f",
+      "DisplayName": "PM02E3G1.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02E3G1.Views.Examen.ListViewPagos"
+             xmlns:local="clr-namespace:PM02E3G1.Clases;assembly=PM02E3G1"   
+             Title="Lista de Pagos"
+             Background="White">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ConverterBase64ImageSource x:Key="Base64ToImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView 
+                ItemsSource="{Binding listPagos}" 
+                ItemSelected="listViewPagos_ItemSelected" 
+                RowHeight="250">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <ViewCell>
+                            <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                                <Grid Padding="20">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label TextColor="Black" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center" Text="Id pago: " FontAttributes="Bold"/>
+                                    <Label TextColor="Black"  Grid.Column="0" Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Center" Text="Descripcion: " FontAttributes="Bold"/>
+                                    <Label TextColor="Black"  Grid.Column="0" Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Center" Text="Monto: " FontAttributes="Bold"/>
+                                    <Label TextColor="Black"  Grid.Column="0" Grid.Row="3" HorizontalOptions="Start" VerticalOptions="Center" Text="Fecha: " FontAttributes="Bold"/>
+
+                                    <Label TextColor="Black" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center" Text="{Binding Id_Pago}"/>
+                                    <Label TextColor="Black" Grid.Column="1" Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Center" Text="{Binding Descripcion}"/>
+                                    <Label TextColor="Black" Grid.Column="1" Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Center" Text="{Binding Monto}"/>
+                                    <Label TextColor="Black" Grid.Column="1" Grid.Row="3" HorizontalOptions="Start" VerticalOptions="Center" Text="{Binding Fecha}"/>
+                                    <Image  Grid.ColumnSpan="2" Grid.Row="4" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding Photo_recibo, Converter={StaticResource Base64ToImageConverter}}"/>
+
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                <Frame HasShadow="True" Padding="6" CornerRadius="7">
+                    <Button Command="{Binding CommandGoToNewPago}" Text="Nuevo Pago"/>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
